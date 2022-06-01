@@ -27,5 +27,6 @@ terraform {
         bucket = "newbucketkr"
         key    = "today/terraform/remote/s3/terraform.tfstate"
         region     = "us-west-2"
+        dynamodb_table  = "terraformnew"
     }
 }
